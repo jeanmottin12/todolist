@@ -1,0 +1,45 @@
+.todoCreate {
+  max-width: 736px;
+  margin: -27px auto 0;
+  padding: 0 1rem;
+
+  display: flex;
+  gap: .5rem;
+}
+
+.todoCreate input {
+  flex: 1;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  height: 3.375rem;
+  padding: 1rem;
+  color: var(--gray-300);
+  border-radius: 8px;
+}
+
+.todoCreate input:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--purple-dark);
+}
+
+.todoCreate button {
+  height: 3.375rem;
+  width: 90px;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+
+  transition: background-color .2s;
+}
+
+.todoCreate button:hover {
+  background: var(--blue);
+}

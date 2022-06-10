@@ -1,0 +1,20 @@
+.main {
+  background: var(--gray-600);
+  flex: 1;
+}
+
+.todoList {
+  max-width: 736px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.todoList header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todoTaskList {
+  margin-top: 1.5rem;
+}
